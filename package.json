@@ -1,0 +1,15 @@
+{
+  "name": "sca-commit-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fixture service for the Maze commit-scan SCA end-to-end test.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "0.21.0",
+    "lodash": "4.17.20",
+    "minimist": "1.2.5"
+  }
+}
